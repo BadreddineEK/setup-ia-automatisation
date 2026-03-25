@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Setup IA & Automatisation | Bader EK — Pour PME et indépendants</title>
 <meta name="description" content="J'automatise vos tâches répétitives et j'intègre l'IA dans vos process métier. Devis gratuit, livraison en 1 semaine, ROI mesurable dès le 1er mois.">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SMJZVH80K8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SMJZVH80K8');
+</script>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
@@ -18,7 +26,6 @@
   .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(124,58,237,0.4); }
   .pain { border-left: 4px solid #ef4444; }
   .stat-card { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
-  .roi-card { background: linear-gradient(135deg, #f5f3ff, #ede9fe); border: 2px solid #c4b5fd; }
 </style>
 </head>
 <body class="bg-white text-gray-900">
@@ -30,7 +37,6 @@
   </div>
 </nav>
 
-<!-- HERO -->
 <section class="gradient-hero text-white pt-32 pb-24 px-6">
   <div class="max-w-4xl mx-auto text-center">
     <span class="badge-purple text-white text-xs font-semibold px-4 py-1.5 rounded-full inline-block mb-6">🤖 IA & Automatisation pour PME et indépendants</span>
@@ -44,29 +50,15 @@
   </div>
 </section>
 
-<!-- ROI RAPIDE -->
 <section class="py-16 px-6 bg-white">
   <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-    <div class="stat-card rounded-2xl p-6">
-      <div class="text-4xl font-black text-purple-700">-8h</div>
-      <p class="text-sm text-gray-600 mt-2">de tâches manuelles économisées par semaine en moyenne</p>
-    </div>
-    <div class="stat-card rounded-2xl p-6">
-      <div class="text-4xl font-black text-purple-700">0 bug</div>
-      <p class="text-sm text-gray-600 mt-2">d'erreur humaine dans les process automatisés</p>
-    </div>
-    <div class="stat-card rounded-2xl p-6">
-      <div class="text-4xl font-black text-purple-700">1 sem</div>
-      <p class="text-sm text-gray-600 mt-2">pour livrer la première automatisation fonctionnelle</p>
-    </div>
-    <div class="stat-card rounded-2xl p-6">
-      <div class="text-4xl font-black text-purple-700">ROI J+30</div>
-      <p class="text-sm text-gray-600 mt-2">le coût est remboursé en moins d'un mois dans 80% des cas</p>
-    </div>
+    <div class="stat-card rounded-2xl p-6"><div class="text-4xl font-black text-purple-700">-8h</div><p class="text-sm text-gray-600 mt-2">de tâches manuelles économisées par semaine en moyenne</p></div>
+    <div class="stat-card rounded-2xl p-6"><div class="text-4xl font-black text-purple-700">0 bug</div><p class="text-sm text-gray-600 mt-2">d'erreur humaine dans les process automatisés</p></div>
+    <div class="stat-card rounded-2xl p-6"><div class="text-4xl font-black text-purple-700">1 sem</div><p class="text-sm text-gray-600 mt-2">pour livrer la première automatisation fonctionnelle</p></div>
+    <div class="stat-card rounded-2xl p-6"><div class="text-4xl font-black text-purple-700">ROI J+30</div><p class="text-sm text-gray-600 mt-2">le coût est remboursé en moins d'un mois dans 80% des cas</p></div>
   </div>
 </section>
 
-<!-- PAIN POINTS -->
 <section class="py-20 px-6 bg-gray-50">
   <div class="max-w-5xl mx-auto">
     <h2 class="text-3xl font-bold text-center mb-4">Vous perdez du temps à faire ça en ce moment</h2>
@@ -80,179 +72,67 @@
   </div>
 </section>
 
-<!-- CE QUE JE FAIS -->
 <section class="py-20 px-6">
   <div class="max-w-5xl mx-auto">
     <h2 class="text-3xl font-bold text-center mb-4">Ce que je mets en place pour vous</h2>
     <p class="text-center text-gray-500 mb-12">Des solutions concrètes et mesurables, pas de la théorie.</p>
     <div class="grid md:grid-cols-3 gap-8">
-      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center">
-        <div class="text-4xl mb-4">🤖</div>
-        <h3 class="font-bold text-lg mb-2">Automatisations workflow</h3>
-        <p class="text-gray-600 text-sm">Make, Zapier, n8n ou scripts Python sur-mesure. Connectez vos outils et éliminez la saisie manuelle entre systèmes.</p>
-      </div>
-      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center">
-        <div class="text-4xl mb-4">🗣️</div>
-        <h3 class="font-bold text-lg mb-2">Assistants IA métier</h3>
-        <p class="text-gray-600 text-sm">Chatbot GPT connecté à vos données, générateur de comptes-rendus, assistant email, rédacteur d'offres... Avec votre contexte, votre ton.</p>
-      </div>
-      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center">
-        <div class="text-4xl mb-4">📊</div>
-        <h3 class="font-bold text-lg mb-2">Rapports automatiques</h3>
-        <p class="text-gray-600 text-sm">Vos KPIs générés et envoyés automatiquement. Rapport hebdo, suivi mensuel, alertes sur seuils — tout tourne sans vous.</p>
-      </div>
-      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center">
-        <div class="text-4xl mb-4">📩</div>
-        <h3 class="font-bold text-lg mb-2">Traitement d'emails & relances</h3>
-        <p class="text-gray-600 text-sm">Tri automatique, réponses type générées par IA, relances clients programmées. Plus besoin de surveiller votre boîte de réception toute la journée.</p>
-      </div>
-      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center">
-        <div class="text-4xl mb-4">🗂️</div>
-        <h3 class="font-bold text-lg mb-2">Extraction & structuration de données</h3>
-        <p class="text-gray-600 text-sm">Scraping, parse de PDF/factures, enrichissement CRM. Vos données dans le bon format, au bon endroit, sans effort manuel.</p>
-      </div>
-      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center">
-        <div class="text-4xl mb-4">🔔</div>
-        <h3 class="font-bold text-lg mb-2">Alertes & monitoring</h3>
-        <p class="text-gray-600 text-sm">Stock bas, délai dépassé, anomalie de données, client inactif — vous êtes notifié au bon moment, sur Slack, email ou SMS.</p>
-      </div>
+      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center"><div class="text-4xl mb-4">🤖</div><h3 class="font-bold text-lg mb-2">Automatisations workflow</h3><p class="text-gray-600 text-sm">Make, Zapier, n8n ou scripts Python sur-mesure. Connectez vos outils et éliminez la saisie manuelle entre systèmes.</p></div>
+      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center"><div class="text-4xl mb-4">🗣️</div><h3 class="font-bold text-lg mb-2">Assistants IA métier</h3><p class="text-gray-600 text-sm">Chatbot GPT connecté à vos données, générateur de comptes-rendus, assistant email, rédacteur d'offres... Avec votre contexte, votre ton.</p></div>
+      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center"><div class="text-4xl mb-4">📊</div><h3 class="font-bold text-lg mb-2">Rapports automatiques</h3><p class="text-gray-600 text-sm">Vos KPIs générés et envoyés automatiquement. Rapport hebdo, suivi mensuel, alertes sur seuils — tout tourne sans vous.</p></div>
+      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center"><div class="text-4xl mb-4">📩</div><h3 class="font-bold text-lg mb-2">Traitement d'emails & relances</h3><p class="text-gray-600 text-sm">Tri automatique, réponses type générées par IA, relances clients programmées. Plus besoin de surveiller votre boîte de réception toute la journée.</p></div>
+      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center"><div class="text-4xl mb-4">🗂️</div><h3 class="font-bold text-lg mb-2">Extraction & structuration de données</h3><p class="text-gray-600 text-sm">Scraping, parse de PDF/factures, enrichissement CRM. Vos données dans le bon format, au bon endroit, sans effort manuel.</p></div>
+      <div class="card-hover bg-purple-50 rounded-2xl p-7 text-center"><div class="text-4xl mb-4">🔔</div><h3 class="font-bold text-lg mb-2">Alertes & monitoring</h3><p class="text-gray-600 text-sm">Stock bas, délai dépassé, anomalie de données, client inactif — vous êtes notifié au bon moment, sur Slack, email ou SMS.</p></div>
     </div>
   </div>
 </section>
 
-<!-- PROCESS -->
 <section class="py-20 px-6 bg-gray-50">
   <div class="max-w-4xl mx-auto">
     <h2 class="text-3xl font-bold text-center mb-12">Ma méthode en 4 étapes</h2>
     <div class="space-y-6">
-      <div class="flex gap-6 items-start bg-white p-6 rounded-xl shadow-sm">
-        <div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">1</div>
-        <div>
-          <h3 class="font-bold text-lg mb-1">Audit de votre workflow (1h — gratuit)</h3>
-          <p class="text-gray-500">On passe en revue vos tâches du quotidien. J'identifie les 3 à 5 points où l'automatisation vous ferait gagner le plus de temps. Je vous donne le chiffrage avant tout engagement.</p>
-        </div>
-      </div>
-      <div class="flex gap-6 items-start bg-white p-6 rounded-xl shadow-sm">
-        <div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">2</div>
-        <div>
-          <h3 class="font-bold text-lg mb-1">Proposition chiffrée (ROI estimé inclus)</h3>
-          <p class="text-gray-500">Je vous envoie une proposition avec : ce que je vais construire, le temps économisé par semaine, le coût, le délai. Vous décidez en connaissance de cause.</p>
-        </div>
-      </div>
-      <div class="flex gap-6 items-start bg-white p-6 rounded-xl shadow-sm">
-        <div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">3</div>
-        <div>
-          <h3 class="font-bold text-lg mb-1">Développement & tests (1–2 semaines)</h3>
-          <p class="text-gray-500">Je construis l'automatisation dans votre environnement réel avec vos vraies données. Tests complets avant la mise en production. Aucune surprise.</p>
-        </div>
-      </div>
-      <div class="flex gap-6 items-start bg-white p-6 rounded-xl shadow-sm">
-        <div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">4</div>
-        <div>
-          <h3 class="font-bold text-lg mb-1">Livraison + documentation</h3>
-          <p class="text-gray-500">Vous recevez l'automatisation livrée, documentée et opérationnelle. Formation incluse. Modifications incluses pendant 30 jours.</p>
-        </div>
-      </div>
+      <div class="flex gap-6 items-start bg-white p-6 rounded-xl shadow-sm"><div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">1</div><div><h3 class="font-bold text-lg mb-1">Audit de votre workflow (1h — gratuit)</h3><p class="text-gray-500">On passe en revue vos tâches du quotidien. J'identifie les 3 à 5 points où l'automatisation vous ferait gagner le plus de temps. Je vous donne le chiffrage avant tout engagement.</p></div></div>
+      <div class="flex gap-6 items-start bg-white p-6 rounded-xl shadow-sm"><div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">2</div><div><h3 class="font-bold text-lg mb-1">Proposition chiffrée (ROI estimé inclus)</h3><p class="text-gray-500">Je vous envoie une proposition avec : ce que je vais construire, le temps économisé par semaine, le coût, le délai. Vous décidez en connaissance de cause.</p></div></div>
+      <div class="flex gap-6 items-start bg-white p-6 rounded-xl shadow-sm"><div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">3</div><div><h3 class="font-bold text-lg mb-1">Développement & tests (1–2 semaines)</h3><p class="text-gray-500">Je construis l'automatisation dans votre environnement réel avec vos vraies données. Tests complets avant la mise en production. Aucune surprise.</p></div></div>
+      <div class="flex gap-6 items-start bg-white p-6 rounded-xl shadow-sm"><div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">4</div><div><h3 class="font-bold text-lg mb-1">Livraison + documentation</h3><p class="text-gray-500">Vous recevez l'automatisation livrée, documentée et opérationnelle. Formation incluse. Modifications incluses pendant 30 jours.</p></div></div>
     </div>
   </div>
 </section>
 
-<!-- TARIFS -->
 <section class="py-20 px-6">
   <div class="max-w-4xl mx-auto text-center">
     <h2 class="text-3xl font-bold mb-4">Tarifs</h2>
     <p class="text-gray-500 mb-12">Facturation au projet après validation. Ou en maintenance mensuelle si vous voulez un partenaire durable.</p>
     <div class="grid md:grid-cols-3 gap-6">
-      <div class="border-2 border-gray-200 rounded-2xl p-7 card-hover">
-        <h3 class="font-bold text-lg mb-2">Starter</h3>
-        <div class="text-4xl font-black mb-1">450€</div>
-        <p class="text-gray-400 text-sm mb-6">projet unique</p>
-        <ul class="text-sm text-gray-600 space-y-2 text-left mb-6">
-          <li>✅ 1 automatisation simple</li>
-          <li>✅ 2 outils connectés (ex : Gmail + Notion)</li>
-          <li>✅ Documentation fournie</li>
-          <li>✅ 30j de corrections incluses</li>
-        </ul>
-        <a href="#contact" class="block w-full border-2 border-purple-600 text-purple-600 py-3 rounded-xl font-semibold hover:bg-purple-50 transition">Démarrer</a>
-      </div>
-      <div class="border-2 border-purple-600 rounded-2xl p-7 card-hover relative bg-purple-50">
-        <span class="absolute -top-3 left-1/2 -translate-x-1/2 badge-purple text-white text-xs px-3 py-1 rounded-full">Le plus populaire</span>
-        <h3 class="font-bold text-lg mb-2">Business</h3>
-        <div class="text-4xl font-black mb-1 text-purple-600">850€</div>
-        <p class="text-gray-400 text-sm mb-6">projet complet</p>
-        <ul class="text-sm text-gray-600 space-y-2 text-left mb-6">
-          <li>✅ Jusqu'à 3 automatisations</li>
-          <li>✅ Intégration IA (GPT, classification, extraction)</li>
-          <li>✅ Dashboard de monitoring inclus</li>
-          <li>✅ Formation équipe 2h</li>
-          <li>✅ Support 30j inclus</li>
-        </ul>
-        <a href="#contact" class="block w-full btn-primary text-white py-3 rounded-xl font-semibold text-center">Démarrer</a>
-      </div>
-      <div class="border-2 border-gray-200 rounded-2xl p-7 card-hover">
-        <h3 class="font-bold text-lg mb-2">Partenaire IA</h3>
-        <div class="text-4xl font-black mb-1">400€/mois</div>
-        <p class="text-gray-400 text-sm mb-6">engagement 3 mois min.</p>
-        <ul class="text-sm text-gray-600 space-y-2 text-left mb-6">
-          <li>✅ 8h/mois dédiées à vos projets</li>
-          <li>✅ Nouvelles automatisations en continu</li>
-          <li>✅ Maintenance & évolutions</li>
-          <li>✅ Canal direct (WhatsApp/Slack)</li>
-        </ul>
-        <a href="#contact" class="block w-full border-2 border-purple-600 text-purple-600 py-3 rounded-xl font-semibold hover:bg-purple-50 transition">Me contacter</a>
-      </div>
+      <div class="border-2 border-gray-200 rounded-2xl p-7 card-hover"><h3 class="font-bold text-lg mb-2">Starter</h3><div class="text-4xl font-black mb-1">450€</div><p class="text-gray-400 text-sm mb-6">projet unique</p><ul class="text-sm text-gray-600 space-y-2 text-left mb-6"><li>✅ 1 automatisation simple</li><li>✅ 2 outils connectés (ex : Gmail + Notion)</li><li>✅ Documentation fournie</li><li>✅ 30j de corrections incluses</li></ul><a href="#contact" class="block w-full border-2 border-purple-600 text-purple-600 py-3 rounded-xl font-semibold hover:bg-purple-50 transition">Démarrer</a></div>
+      <div class="border-2 border-purple-600 rounded-2xl p-7 card-hover relative bg-purple-50"><span class="absolute -top-3 left-1/2 -translate-x-1/2 badge-purple text-white text-xs px-3 py-1 rounded-full">Le plus populaire</span><h3 class="font-bold text-lg mb-2">Business</h3><div class="text-4xl font-black mb-1 text-purple-600">850€</div><p class="text-gray-400 text-sm mb-6">projet complet</p><ul class="text-sm text-gray-600 space-y-2 text-left mb-6"><li>✅ Jusqu'à 3 automatisations</li><li>✅ Intégration IA (GPT, classification, extraction)</li><li>✅ Dashboard de monitoring inclus</li><li>✅ Formation équipe 2h</li><li>✅ Support 30j inclus</li></ul><a href="#contact" class="block w-full btn-primary text-white py-3 rounded-xl font-semibold text-center">Démarrer</a></div>
+      <div class="border-2 border-gray-200 rounded-2xl p-7 card-hover"><h3 class="font-bold text-lg mb-2">Partenaire IA</h3><div class="text-4xl font-black mb-1">400€/mois</div><p class="text-gray-400 text-sm mb-6">engagement 3 mois min.</p><ul class="text-sm text-gray-600 space-y-2 text-left mb-6"><li>✅ 8h/mois dédiées à vos projets</li><li>✅ Nouvelles automatisations en continu</li><li>✅ Maintenance & évolutions</li><li>✅ Canal direct (WhatsApp/Slack)</li></ul><a href="#contact" class="block w-full border-2 border-purple-600 text-purple-600 py-3 rounded-xl font-semibold hover:bg-purple-50 transition">Me contacter</a></div>
     </div>
   </div>
 </section>
 
-<!-- EXEMPLES -->
 <section id="exemples" class="py-20 px-6 bg-gray-50">
   <div class="max-w-5xl mx-auto">
     <h2 class="text-3xl font-bold text-center mb-4">Cas concrets réalisés</h2>
     <p class="text-center text-gray-500 mb-12">Des vrais ROI, des vrais métiers.</p>
     <div class="grid md:grid-cols-3 gap-6">
-      <div class="bg-white rounded-2xl p-6 card-hover shadow-sm">
-        <div class="text-3xl mb-3">🧹</div>
-        <h3 class="font-bold mb-2">Société de nettoyage (15 employés)</h3>
-        <p class="text-gray-500 text-sm">Planning auto depuis Google Sheets + notifications WhatsApp aux équipes + rapport hebdo PDF envoyé par mail. 6h économisées/semaine.</p>
-        <p class="text-purple-600 font-semibold text-sm mt-3">700€ · 5 jours · ROI : 3 semaines</p>
-      </div>
-      <div class="bg-white rounded-2xl p-6 card-hover shadow-sm">
-        <div class="text-3xl mb-3">👨‍⚖️</div>
-        <h3 class="font-bold mb-2">Cabinet juridique (3 associés)</h3>
-        <p class="text-gray-500 text-sm">IA de résumé de documents juridiques + extraction automatique des dates clés + relances clients programmées. 3h économisées/jour.</p>
-        <p class="text-purple-600 font-semibold text-sm mt-3">900€ · 6 jours · ROI : 2 semaines</p>
-      </div>
-      <div class="bg-white rounded-2xl p-6 card-hover shadow-sm">
-        <div class="text-3xl mb-3">🛍️</div>
-        <h3 class="font-bold mb-2">E-commerce mode (indépendant)</h3>
-        <p class="text-gray-500 text-sm">Synchro stock Shopify → Google Sheet + alertes rupture + rapports ventes hebdo automatiques. Zéro saisie manuelle.</p>
-        <p class="text-purple-600 font-semibold text-sm mt-3">550€ · 4 jours · ROI : 1 mois</p>
-      </div>
+      <div class="bg-white rounded-2xl p-6 card-hover shadow-sm"><div class="text-3xl mb-3">🧹</div><h3 class="font-bold mb-2">Société de nettoyage (15 employés)</h3><p class="text-gray-500 text-sm">Planning auto depuis Google Sheets + notifications WhatsApp aux équipes + rapport hebdo PDF envoyé par mail. 6h économisées/semaine.</p><p class="text-purple-600 font-semibold text-sm mt-3">700€ · 5 jours · ROI : 3 semaines</p></div>
+      <div class="bg-white rounded-2xl p-6 card-hover shadow-sm"><div class="text-3xl mb-3">👨‍⚖️</div><h3 class="font-bold mb-2">Cabinet juridique (3 associés)</h3><p class="text-gray-500 text-sm">IA de résumé de documents juridiques + extraction automatique des dates clés + relances clients programmées. 3h économisées/jour.</p><p class="text-purple-600 font-semibold text-sm mt-3">900€ · 6 jours · ROI : 2 semaines</p></div>
+      <div class="bg-white rounded-2xl p-6 card-hover shadow-sm"><div class="text-3xl mb-3">🛍️</div><h3 class="font-bold mb-2">E-commerce mode (indépendant)</h3><p class="text-gray-500 text-sm">Synchro stock Shopify → Google Sheet + alertes rupture + rapports ventes hebdo automatiques. Zéro saisie manuelle.</p><p class="text-purple-600 font-semibold text-sm mt-3">550€ · 4 jours · ROI : 1 mois</p></div>
     </div>
   </div>
 </section>
 
-<!-- TEMOIGNAGES -->
 <section class="py-20 px-6">
   <div class="max-w-4xl mx-auto">
     <h2 class="text-3xl font-bold text-center mb-12">Ce qu'ils en disent</h2>
     <div class="grid md:grid-cols-2 gap-6">
-      <div class="bg-gray-50 rounded-2xl p-7">
-        <p class="text-gray-700 italic mb-4">"J'envoyais mes devis à la main depuis un Excel. Maintenant un formulaire client déclenche tout : devis généré, envoyé, relance programmée. J'ai gagné 2h par jour."</p>
-        <p class="font-semibold">Marc D. — Artisan peintre, Lyon</p>
-        <p class="text-purple-600 text-sm">Projet Starter · 450€</p>
-      </div>
-      <div class="bg-gray-50 rounded-2xl p-7">
-        <p class="text-gray-700 italic mb-4">"Le bot IA qu'il a créé pour nos réponses email analyse la demande et propose un brouillon en 10 secondes. Mon équipe traite 3x plus de demandes sans recrutement supplémentaire."</p>
-        <p class="font-semibold">Céline R. — Directrice, agence RH</p>
-        <p class="text-purple-600 text-sm">Projet Business · 850€</p>
-      </div>
+      <div class="bg-gray-50 rounded-2xl p-7"><p class="text-gray-700 italic mb-4">"J'envoyais mes devis à la main depuis un Excel. Maintenant un formulaire client déclenche tout : devis généré, envoyé, relance programmée. J'ai gagné 2h par jour."</p><p class="font-semibold">Marc D. — Artisan peintre, Lyon</p><p class="text-purple-600 text-sm">Projet Starter · 450€</p></div>
+      <div class="bg-gray-50 rounded-2xl p-7"><p class="text-gray-700 italic mb-4">"Le bot IA qu'il a créé pour nos réponses email analyse la demande et propose un brouillon en 10 secondes. Mon équipe traite 3x plus de demandes sans recrutement supplémentaire."</p><p class="font-semibold">Céline R. — Directrice, agence RH</p><p class="text-purple-600 text-sm">Projet Business · 850€</p></div>
     </div>
   </div>
 </section>
 
-<!-- FAQ -->
 <section class="py-20 px-6 bg-gray-50">
   <div class="max-w-3xl mx-auto">
     <h2 class="text-3xl font-bold text-center mb-12">Questions fréquentes</h2>
@@ -265,18 +145,17 @@
   </div>
 </section>
 
-<!-- CONTACT -->
 <section id="contact" class="py-24 px-6 gradient-purple text-white">
   <div class="max-w-2xl mx-auto text-center">
     <h2 class="text-4xl font-black mb-4">Dites-moi où vous perdez du temps</h2>
     <p class="text-purple-200 mb-10">Décrivez votre problème ou la tâche qui vous prend le plus de temps. Je vous réponds avec un chiffrage précis et un exemple de solution.</p>
-    <form class="bg-white/10 backdrop-blur rounded-2xl p-8 text-left space-y-5">
-      <div><label class="text-sm font-medium text-purple-200 block mb-2">Votre nom</label><input type="text" placeholder="Sophie Durand" class="w-full bg-white/20 border border-white/30 rounded-xl px-4 py-3 text-white placeholder-purple-300 focus:outline-none"></div>
-      <div><label class="text-sm font-medium text-purple-200 block mb-2">Votre email</label><input type="email" placeholder="sophie@monentreprise.fr" class="w-full bg-white/20 border border-white/30 rounded-xl px-4 py-3 text-white placeholder-purple-300 focus:outline-none"></div>
-      <div><label class="text-sm font-medium text-purple-200 block mb-2">Votre secteur & la tâche qui vous fait perdre le plus de temps</label><textarea rows="4" placeholder="Je suis dans l'immobilier et je passe 2h par jour à remplir des fiches de visite manuellement... Je voudrais automatiser..." class="w-full bg-white/20 border border-white/30 rounded-xl px-4 py-3 text-white placeholder-purple-300 focus:outline-none resize-none"></textarea></div>
+    <form action="https://formspree.io/f/xykbgaav" method="POST" class="bg-white/10 backdrop-blur rounded-2xl p-8 text-left space-y-5">
+      <div><label class="text-sm font-medium text-purple-200 block mb-2">Votre nom</label><input type="text" name="nom" placeholder="Sophie Durand" class="w-full bg-white/20 border border-white/30 rounded-xl px-4 py-3 text-white placeholder-purple-300 focus:outline-none" required></div>
+      <div><label class="text-sm font-medium text-purple-200 block mb-2">Votre email</label><input type="email" name="email" placeholder="sophie@monentreprise.fr" class="w-full bg-white/20 border border-white/30 rounded-xl px-4 py-3 text-white placeholder-purple-300 focus:outline-none" required></div>
+      <div><label class="text-sm font-medium text-purple-200 block mb-2">Votre secteur & la tâche qui vous fait perdre le plus de temps</label><textarea rows="4" name="message" placeholder="Je suis dans l'immobilier et je passe 2h par jour à remplir des fiches de visite manuellement... Je voudrais automatiser..." class="w-full bg-white/20 border border-white/30 rounded-xl px-4 py-3 text-white placeholder-purple-300 focus:outline-none resize-none" required></textarea></div>
       <button type="submit" class="w-full btn-primary py-4 rounded-xl font-bold text-lg">Demander mon audit gratuit →</button>
     </form>
-    <p class="mt-6 text-purple-300 text-sm">Ou contactez-moi directement : <a href="mailto:contact@baderek.fr" class="underline">contact@baderek.fr</a></p>
+    <p class="mt-6 text-purple-300 text-sm">Ou contactez-moi directement : <a href="mailto:elkhamlichi.badreddine@gmail.com" class="underline">elkhamlichi.badreddine@gmail.com</a></p>
   </div>
 </section>
 
